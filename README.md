@@ -83,7 +83,7 @@
     </style>
     <body style="text-align:center;">
         <p>
-            name this coding word St*l*
+            Name this coding word St*l*
         </p>
 
         <div class="tooltip">
