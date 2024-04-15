@@ -87,7 +87,67 @@
         </p>
 
         <div class="tooltip">
-            Hover HERE for answer
+<br>
+        <h2>Question 4</h2>
+    </head>
+
+    
+   <center>
+       <style>
+        .label:after {
+            content: 'Name the Two Transitions we learned about in this lesson';
+        }
+        .label:hover:after {
+            content: 'DELAY & TIMING-FUNCTION';
+        }
+    </style>
+    <body>
+        <p>
+            <span class="label"></span>
+        </p>
+    </body>
+            Hover Over Question for answers
+            <span class="tooltiptext">STYLE</span>
+        </div>
+
+        <br>
+        <h2>Question 5</h2>
+    </head>
+
+    
+   <center>
+       <style>
+        .label:after {
+            content: 'What is Keyframe-selector?';
+        }
+        .label:hover:after {
+            content: 'Set the directions for the animation';
+        }
+    </style>
+    <body>
+        <p>
+            <span class="label"></span>
+        </p>
+    </body>
+            Hover Over Question for answers
+            <span class="tooltiptext">STYLE</span>
+        </div>
+    
+ <center>
+       <style>
+        .label:after {
+            content: 'What is Animation Properties??';
+        }
+        .label:hover:after {
+            content: 'Used to tell the target element it is going to perform the animation';
+        }
+    </style>
+    <body>
+        <p>
+            <span class="label"></span>
+        </p>
+    </body>
+            Hover Over Question for answers
             <span class="tooltiptext">STYLE</span>
         </div>
     
