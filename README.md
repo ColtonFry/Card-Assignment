@@ -133,7 +133,9 @@
             <span class="tooltiptext">STYLE</span>
         </div>
     
- <center>
+<br>
+        <h2>Question 6</h2>
+        <center>
        <style>
         .label:after {
             content: 'What is Animation Properties??';
@@ -150,4 +152,109 @@
             Hover Over Question for answers
             <span class="tooltiptext">STYLE</span>
         </div>
+
+    <style>
+<br>
+        
+        <style>
+  @keyframes anim2 {
+    0% {
+      transform:rotate(0deg);
+    }
+    50% {
+      transform:rotate(90deg);
+      color:#333333;
+    }
+    100% {
+      transform:rotate(90deg);
+      color:#BBBBBB;
+    }
+  }
+
+  div {
+    width: 150px; 
+    height: 75px; 
+    border: 2px solid #333; 
+    margin-top: 40px;
+    animation-name: anim2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+</style>
+
+<div>Question 7 What controls the number of steps and when they happen?</div>
+<style>
+  @keyframes anim1 {
+    0% {
+      transform:rotate(0deg);
+    }
+    50% {
+      transform:rotate(90deg);
+      color:#333333;
+    }
+    100% {
+      color:#BBBBBB;
+    }
+  }
+
+  div {
+    width: 150px; 
+    height: 75px; 
+    border: 2px solid #333; 
+    margin-top: 40px;
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+</style>
+
+<div>ANSWER: Animations</div>
+
+<br>
+        <h2>Question 8</h2>
+    </head>
+
     
+   <center>
+       <style>
+        .label:after {
+            content: 'Name the Two Transitions we learned about in this lesson';
+        }
+  <br>
+           <center>
+           A few seconds before animation starts is called what?
+           <style>
+  @keyframes timeIt {
+    from {
+      transform: rotate(0deg);
+      left: 10px;
+    }
+    to {
+      transform: rotate(180deg);
+      left: 500px;
+    }
+  }
+  section {
+     position: relative;
+  }
+  section div {
+    width: 75px;
+    padding: 10px;
+    position: absolute;
+    background-color: lightpink;
+    border: 2px solid purple;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    animation-name: timeIt;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+  }
+</style>
+
+<section>
+  <div>delay & timing</div>
+</section>
